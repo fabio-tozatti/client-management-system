@@ -22,6 +22,11 @@
         <div class="container">
             <div class="row">
                 <div class="offset-lg-4 col-lg-4">
+                    <?php if (isset($error)): ?>
+                        <div class="alert alert-danger text-center">
+                            <?php echo $error; ?>
+                        </div>
+                    <?php endif; ?>
                     <div class="card">
                         <div class="card-body p-5">
                             <p class="text-center">Insira seus dados para acessar</p>
@@ -37,6 +42,7 @@
                                 </div>
                                 <button type="submit" class="btn btn-primary w-100">Acessar</button>
                             </form>
+                            
                         </div>
                     </div>
                 </div>
