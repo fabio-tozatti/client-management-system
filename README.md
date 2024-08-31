@@ -8,12 +8,13 @@
 ## Configuração
 
 1. Clone o repositório.
-2. Configure o banco de dados no arquivo `config/database.php`.
-3. Crie o banco de dados e as tabelas necessárias usando o script `db.sql`.
-4. Um usuário padrão será criado ao acessar a home da aplicação:
+2. Crie um arquivo `.env` na raiz do projeto com base no arquivo `.env.example`. 
+3. Configure o banco de dados e outras variáveis de ambiente no arquivo `.env`.
+4. Crie o banco de dados e as tabelas necessárias usando o script `db.sql`.
+5. Um usuário padrão será criado ao acessar a home da aplicação:
    - Email: `admin@admin.com`
    - Senha: `admin123`
-5. Configure o servidor web (xampp) para apontar para a pasta `kabum`.
+6. Configure o servidor web (xampp) para apontar para a pasta `kabum`.
 
 ## Executando a Aplicação
 
