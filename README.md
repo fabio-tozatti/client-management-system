@@ -9,7 +9,7 @@
 
 1. Clone o repositório.
 2. Crie um arquivo `.env` na raiz do projeto com base no arquivo `.env.example`. 
-3. Configure o banco de dados e outras variáveis de ambiente no arquivo `.env`.
+3. Configure o banco de dados e outras variáveis de ambiente no arquivo `.env` ou diretamente no arquivo config/config.php.
 4. Crie o banco de dados e as tabelas necessárias usando o script `db.sql`.
 5. Um usuário padrão será criado ao acessar a home da aplicação:
    - Email: `admin@admin.com`
@@ -22,7 +22,7 @@
 
 ## Testes
 
-1. Execute os testes com PHPUnit.
+1. Execute os testes com PHPUnit (phpunit --testdox).
 
 ## Estrutura do Projeto
 
